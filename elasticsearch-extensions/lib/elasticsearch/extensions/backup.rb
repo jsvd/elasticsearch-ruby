@@ -4,10 +4,10 @@ require 'pathname'
 require 'fileutils'
 
 require 'multi_json'
-require 'oj'
+#require 'oj'
 
 require 'elasticsearch'
-require 'patron'
+#require 'patron'
 
 module Backup
   module Database
