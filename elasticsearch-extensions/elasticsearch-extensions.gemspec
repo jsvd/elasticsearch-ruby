@@ -54,8 +54,4 @@ Gem::Specification.new do |s|
   if defined?(RUBY_VERSION) && RUBY_VERSION > '2.2'
     s.add_development_dependency "test-unit", '~> 2'
   end
-
-  # Gems for testing integrations
-  s.add_development_dependency "patron" unless defined?(JRUBY_VERSION) || defined?(Rubinius)
-  s.add_development_dependency "oj" unless defined?(JRUBY_VERSION) || defined?(Rubinius)
 end
