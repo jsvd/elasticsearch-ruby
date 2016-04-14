@@ -6,7 +6,7 @@ sudo: false
 
 language: ruby
 
-cache: bundler
+#cache: bundler
 
 branches:
   only:
@@ -14,11 +14,11 @@ branches:
     - travis
 
 rvm:
+  - jruby-1.7.23
   - 1.8.7
   - 1.9.3
   - 2.1
   - 2.2
-  - jruby-1.7.23
 
 jdk:
   - openjdk7
